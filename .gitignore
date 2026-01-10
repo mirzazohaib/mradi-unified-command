@@ -1,0 +1,14 @@
+# Security (Crucial)
+.env
+
+# Virtual Environment (Do not upload 1000s of library files)
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# IDE Settings (Optional but recommended)
+.vscode/
+.idea/
