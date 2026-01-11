@@ -28,8 +28,9 @@
 | :----------------------- | :------------- | :------------------------------------------------------------------ |
 | **1. Operations Core**   | ✅ Done        | [Schema Design](docs/screenshots/01_salesforce_schema.png)          |
 | **2. Intelligence Link** | ✅ Done        | [API Connection](docs/screenshots/02_python_connection_success.png) |
-| **3. Pre-Flight Engine** | 🚧 In Progress |                                                                     |
-| **4. Risk Algorithm**    | ⏳ Pending     |                                                                     |
+| **3. Pre-Flight Engine** | ✅ Done        | [PATCH & Simulation Logic](docs/screenshots/03_patch_success.png)   |
+| **4. Risk Algorithm**    | ✅ Done        | [Risk JSON Output](docs/screenshots/04_risk_assessment_payload.png) |
+| **5. Airbus-Ready Ops**  | 🚧 In Progress | Dockerization & Security                                            |
 
 ---
 
