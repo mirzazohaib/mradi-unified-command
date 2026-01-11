@@ -7,6 +7,7 @@
 ![Project Status](https://img.shields.io/badge/Status-Active_Development-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Compliance](https://img.shields.io/badge/Compliance-GDPR_Ready-orange)
+![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen)
 
 ---
 
@@ -32,6 +33,7 @@
 | **4. Risk Algorithm**    | ✅ Done | [Risk JSON Output](docs/screenshots/04_risk_assessment_payload.png) |
 | **5. Airbus-Ready Ops**  | ✅ Done | [Docker Logs](docs/screenshots/05_docker_success.png)               |
 | **6. Mission Dashboard** | ✅ Done | [Mission Control](docs/screenshots/06_dashboard.png)                |
+| **7. Governance Check**  | ✅ Done | [Unit Tests & Audit](docs/screenshots/07_governance_check.png)      |
 
 ---
 
@@ -53,6 +55,69 @@ Acts as the "Decision Engine":
 - **Pre-Flight Check:** Simulates heartbeats to external hardware (Dockerized).
 - **Risk Engine:** ML-based logic to flag "High Risk" missions.
 
+### 3. The Governance Layer (Quality Assurance)
+
+Ensures the system is safe for deployment:
+
+- **Unit Testing:** `pytest` suite verifies risk logic accuracy.
+- **Supply Chain Security:** `pip-audit` scans dependencies for vulnerabilities.
+- **GDPR Compliance:** Automated scripts to purge data older than 30 days.
+
+---
+
+## 📂 Project Structure
+
+A standardized, container-ready directory structure designed for scalability.
+
+```text
+mradi-unified-command/
+├── app/
+│   ├── main.py            # FastAPI Entry Point
+│   ├── risk_engine.py     # Intelligence Logic (Unit Tested)
+│   ├── audit_logger.py    # Governance & Logging
+│   ├── sf_connector.py    # Salesforce Integration
+│   └── static/            # Dashboard Frontend (HTML/CSS/JS)
+├── tests/                 # Pytest Suite (Governance Layer)
+├── scripts/               # Admin Tools (GDPR Purge)
+├── Dockerfile             # Container Instructions
+├── docker-compose.yml     # Orchestration Config
+├── .dockerignore          # Build Optimization (Excludes venv, git)
+├── .gitignore             # Security (Excludes .env, secrets)
+├── requirements.txt       # Python Dependencies
+└── README.md              # Project Documentation
+```
+
+## 🔍 Quick Check: Do these files exist?
+
+Just to be 100% sure your project is actually clean, ensure these files have the correct content:
+
+### 1. `.gitignore` (Should be in root)
+
+```text
+   # Security
+   .env
+   __pycache__/
+   *.pyc
+
+   # Virtual Environment
+   venv/
+   .pytest_cache/
+```
+
+### 2. `.dockerignore` (Should be in root)
+
+```text
+   # Build Efficiency - Keep image small
+   .git
+   .env
+   venv/
+   tests/
+   scripts/
+   __pycache__/
+   *.pyc
+   README.md
+```
+
 ---
 
 ## ⚡ Quick Start
@@ -60,15 +125,33 @@ Acts as the "Decision Engine":
 ### Prerequisites
 
 - Python 3.9+
+- Docker & Docker Compose
 - Salesforce Developer Edition Org
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone [https://github.com/mirzazohaib/mradi-unified-command.git](https://github.com/mirzazohaib/mradi-unified-command.git)
    cd mradi-unified-command
    ```
+
+2. **Configure Environment Create a `.env` file with your Salesforce credentials**
+
+   ```bash
+   SF_USERNAME=your_email
+   SF_PASSWORD=your_password
+   SF_TOKEN=your_token
+   ```
+
+3. **Run with Docker (Recommended)**
+
+   ```bash
+      docker compose up --build
+   ```
+
+   Access the Dashboard at: `http://localhost:8000`
 
 ---
 
