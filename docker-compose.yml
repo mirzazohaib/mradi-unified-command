@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  skysec-api:
+    build: .
+    container_name: skysec_core
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # 🔌 THE MAGIC LINK:
+      # Maps your current folder (.) to the container folder (/app)
+      # This enables "Hot Reloading" so changes update instantly.
+      - .:/app
+    # Override the command to enable reload mode
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

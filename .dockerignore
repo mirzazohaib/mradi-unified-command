@@ -1,0 +1,15 @@
+# Ignore local virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.git/
+.gitignore
+
+# SAFETY: Never copy the .env file into the image!
+.env
+
+# IDE Settings (Optional but recommended)
+.vscode/
+.idea/

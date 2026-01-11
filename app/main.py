@@ -15,7 +15,8 @@ class StatusUpdate(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "SkySec Uplink Online. System Ready."}
+    # Change "System Ready" to "System Ready [Dockerized]"
+    return {"message": "SkySec Uplink Online. System Ready [Dockerized]."}
 
 # UPDATED: Added Risk Scoring and Audit Logging (MRADI-5 & MRADI-6)
 @app.get("/api/missions")
