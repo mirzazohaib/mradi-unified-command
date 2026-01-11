@@ -24,14 +24,14 @@
 
 ## 📸 Proof of Work (Milestones)
 
-| Milestone                | Status         | Evidence                                                            |
-| :----------------------- | :------------- | :------------------------------------------------------------------ |
-| **1. Operations Core**   | ✅ Done        | [Schema Design](docs/screenshots/01_salesforce_schema.png)          |
-| **2. Intelligence Link** | ✅ Done        | [API Connection](docs/screenshots/02_python_connection_success.png) |
-| **3. Pre-Flight Engine** | ✅ Done        | [PATCH & Simulation Logic](docs/screenshots/03_patch_success.png)   |
-| **4. Risk Algorithm**    | ✅ Done        | [Risk JSON Output](docs/screenshots/04_risk_assessment_payload.png) |
-| **5. Airbus-Ready Ops**  | ✅ Done        | [Docker Logs](docs/screenshots/05_docker_success.png)               |
-| **6. Mission Dashboard** | 🚧 In Progress | UI & Visualization                                                  |
+| Milestone                | Status  | Evidence                                                            |
+| :----------------------- | :------ | :------------------------------------------------------------------ |
+| **1. Operations Core**   | ✅ Done | [Schema Design](docs/screenshots/01_salesforce_schema.png)          |
+| **2. Intelligence Link** | ✅ Done | [API Connection](docs/screenshots/02_python_connection_success.png) |
+| **3. Pre-Flight Engine** | ✅ Done | [PATCH & Simulation Logic](docs/screenshots/03_patch_success.png)   |
+| **4. Risk Algorithm**    | ✅ Done | [Risk JSON Output](docs/screenshots/04_risk_assessment_payload.png) |
+| **5. Airbus-Ready Ops**  | ✅ Done | [Docker Logs](docs/screenshots/05_docker_success.png)               |
+| **6. Mission Dashboard** | ✅ Done | [Mission Control](docs/screenshots/06_dashboard.png)                |
 
 ---
 

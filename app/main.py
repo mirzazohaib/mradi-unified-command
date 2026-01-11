@@ -1,4 +1,6 @@
 from fastapi import FastAPI, Query, HTTPException
+from fastapi.staticfiles import StaticFiles  # NEW: For serving CSS/JS
+from fastapi.responses import FileResponse   # NEW: For serving HTML
 from typing import Optional
 from pydantic import BaseModel
 
@@ -9,14 +11,19 @@ from app.audit_logger import log_transaction       # MRADI-6
 
 app = FastAPI(title="SkySec Unified Command API", version="1.0")
 
+# 1. MOUNT STATIC FILES (Day 7: Visualization Layer)
+# This serves the 'app/static' folder at the '/static' URL path.
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
 # Pydantic model for the update request body
 class StatusUpdate(BaseModel):
     status: str
 
+# 2. SERVE THE DASHBOARD (The New Entry Point)
 @app.get("/")
-def read_root():
-    # Change "System Ready" to "System Ready [Dockerized]"
-    return {"message": "SkySec Uplink Online. System Ready [Dockerized]."}
+async def read_root():
+    # Instead of a JSON message, we serve the HTML dashboard
+    return FileResponse('app/static/index.html')
 
 # UPDATED: Added Risk Scoring and Audit Logging (MRADI-5 & MRADI-6)
 @app.get("/api/missions")

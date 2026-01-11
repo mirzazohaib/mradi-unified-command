@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkySec Mission Control</title>
+    <style>
+      /* Airbus-Style Dark Theme */
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #0f172a;
+        color: #e2e8f0;
+        margin: 0;
+        padding: 2rem;
+      }
+      h1 {
+        color: #38bdf8;
+        border-bottom: 2px solid #1e293b;
+        padding-bottom: 1rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .card {
+        background: #1e293b;
+        border-radius: 12px;
+        padding: 1.5rem;
+        border: 1px solid #334155;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        border-color: #38bdf8;
+      }
+
+      .badge {
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .badge-CRITICAL {
+        background: #ef4444;
+        color: white;
+      } /* Red */
+      .badge-ELEVATED {
+        background: #f59e0b;
+        color: black;
+      } /* Orange */
+      .badge-LOW {
+        background: #10b981;
+        color: white;
+      } /* Green */
+
+      .stat-row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        color: #94a3b8;
+        font-size: 0.9rem;
+      }
+      .risk-score {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🚁 SkySec Unified Command // Live Feed</h1>
+    <div id="mission-grid" class="grid">
+      <p>Connecting to satellite uplink...</p>
+    </div>
+
+    <script>
+      async function fetchMissions() {
+        try {
+          // 1. Call the API (The Intelligence Link)
+          const response = await fetch("/api/missions");
+          const data = await response.json();
+
+          const grid = document.getElementById("mission-grid");
+          grid.innerHTML = ""; // Clear "Connecting..." text
+
+          // 2. Loop through missions and create cards
+          data.missions.forEach((mission) => {
+            const risk = mission.risk_assessment;
+
+            // Create HTML Card
+            const card = `
+                        <div class="card">
+                            <div style="display:flex; justify-content:space-between; align-items:start;">
+                                <h2 style="margin:0; font-size:1.2rem;">${
+                                  mission.mission_name
+                                }</h2>
+                                <span class="badge badge-${risk.risk_level}">${
+              risk.risk_level
+            }</span>
+                            </div>
+                            
+                            <div class="stat-row">
+                                <span>📍 Region: ${mission.region}</span>
+                                <span>📡 Asset: ${mission.asset}</span>
+                            </div>
+
+                            <hr style="border:0; border-top:1px solid #334155; margin: 1rem 0;">
+                            
+                            <div style="display:flex; justify-content:space-between; align-items:center;">
+                                <div>
+                                    <div style="font-size:0.8rem; color:#94a3b8;">RISK SCORE</div>
+                                    <div class="risk-score">${risk.score}</div>
+                                </div>
+                                <div style="text-align:right;">
+                                    <div style="font-size:0.8rem; color:#94a3b8;">STATUS</div>
+                                    <div style="font-weight:bold; color:${
+                                      mission.status === "READY"
+                                        ? "#10b981"
+                                        : "#ef4444"
+                                    }">
+                                        ${mission.status}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+            grid.innerHTML += card;
+          });
+        } catch (err) {
+          console.error("Link Failed:", err);
+          document.getElementById("mission-grid").innerHTML =
+            '<p style="color:red">⚠ CONNECTION LOST</p>';
+        }
+      }
+
+      // Run immediately on load
+      fetchMissions();
+    </script>
+  </body>
+</html>
