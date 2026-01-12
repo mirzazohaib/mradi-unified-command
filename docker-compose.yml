@@ -2,16 +2,34 @@ version: "3.8"
 
 services:
   skysec-api:
+    # BUILD CONTEXT: Uses the Dockerfile in the current directory
     build: .
+
+    # CONTAINER IDENTITY: Explicit naming makes debugging easier (e.g., 'docker logs skysec_core')
     container_name: skysec_core
+
+    # NETWORK MAPPING: Maps Host Port 8000 -> Container Port 8000
     ports:
       - "8000:8000"
-    env_file:
-      - .env
+
+    # CONFIGURATION MANAGEMENT (GOVERNANCE)
+    # We explicitly declare the operational mode here.
+    environment:
+      - DEMO_MODE=True # Signals the app to use the Virtual Service Registry
+      - SALESFORCE_MOCK=True # Prevents accidental API calls to production Salesforce
+      - PYTHONDONTWRITEBYTECODE=1 # Keeps the container file system clean
+
+    # DEVELOPMENT VOLUME (HOT RELOAD)
+    # Maps your local code (.) to the container's internal folder (/app).
+    # Changes you make in VS Code appear instantly inside the container.
     volumes:
-      # 🔌 THE MAGIC LINK:
-      # Maps your current folder (.) to the container folder (/app)
-      # This enables "Hot Reloading" so changes update instantly.
       - .:/app
-    # Override the command to enable reload mode
+
+    # RESILIENCE POLICY
+    # If the app crashes (e.g., memory leak), Docker will automatically restart it.
+    # This simulates "Self-Healing" infrastructure.
+    restart: unless-stopped
+
+    # COMMAND OVERRIDE
+    # We use --reload for development speed. In production, this flag is removed.
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

@@ -3,144 +3,549 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SkySec Mission Control</title>
+    <title>SkySec Unified Command</title>
     <style>
-      /* Airbus-Style Dark Theme */
-      body {
-        font-family: "Segoe UI", sans-serif;
-        background-color: #0f172a;
-        color: #e2e8f0;
-        margin: 0;
-        padding: 2rem;
+      /* --- CSS VARIABLES & RESET --- */
+      :root {
+        --bg-color: #0f172a;
+        --card-bg: #1e293b;
+        --text-primary: #f8fafc;
+        --text-secondary: #94a3b8;
+        --accent-green: #10b981;
+        --accent-red: #ef4444;
+        --accent-orange: #f59e0b;
+        --accent-blue: #38bdf8;
       }
-      h1 {
-        color: #38bdf8;
-        border-bottom: 2px solid #1e293b;
-        padding-bottom: 1rem;
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-primary);
+        margin: 0;
+        padding: 20px;
+        max-width: 100vw;
+        overflow-x: hidden;
       }
 
+      /* --- TELEMETRY HEADER --- */
+      .telemetry-bar {
+        background-color: var(--card-bg);
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #334155;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        gap: 20px;
+      }
+
+      /* TITLE GROUP */
+      .title-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .app-title h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+      }
+      .app-title span {
+        color: var(--accent-blue);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      /* MODE BADGE */
+      .mode-badge {
+        font-size: 0.7rem;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 4px;
+        background-color: #334155;
+        color: #94a3b8;
+        letter-spacing: 1px;
+        width: fit-content;
+        transition: all 0.3s ease;
+      }
+      .mode-SIMULATION {
+        border: 1px solid var(--accent-blue);
+        color: var(--accent-blue);
+      }
+      .mode-LIVE {
+        border: 1px solid var(--accent-red);
+        color: var(--accent-red);
+        background-color: rgba(239, 68, 68, 0.1);
+      }
+      /* UX: Gray state for lost telemetry implies uncertainty */
+      .mode-LOST {
+        border: 1px dashed #475569;
+        color: #475569;
+        opacity: 0.7;
+      }
+
+      /* HARDWARE STATS */
+      .hardware-group {
+        display: flex;
+        gap: 15px;
+        font-family: "Courier New", monospace;
+        font-size: 0.9rem;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 5px 10px;
+        border-radius: 4px;
+        width: fit-content;
+      }
+      .hw-item {
+        color: var(--text-secondary);
+      }
+      .hw-val {
+        font-weight: bold;
+        color: var(--accent-green);
+      }
+
+      /* READINESS INDICATORS */
+      .readiness-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+      }
+      .readiness-indicator {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        text-align: center;
+        min-width: 180px;
+      }
+      .status-READY {
+        background-color: rgba(16, 185, 129, 0.2);
+        color: var(--accent-green);
+        border: 1px solid var(--accent-green);
+      }
+      .status-DEGRADED {
+        background-color: rgba(245, 158, 11, 0.2);
+        color: var(--accent-orange);
+        border: 1px solid var(--accent-orange);
+      }
+      .status-NOT_READY {
+        background-color: rgba(239, 68, 68, 0.2);
+        color: var(--accent-red);
+        border: 1px solid var(--accent-red);
+      }
+      .status-LOST {
+        background-color: #334155;
+        color: #94a3b8;
+        border: 1px dashed #94a3b8;
+      }
+
+      /* PROVENANCE & REASONS */
+      .reason-list {
+        font-size: 0.8rem;
+        color: var(--accent-red);
+        text-align: right;
+      }
+      .reason-item {
+        display: block;
+        margin-bottom: 2px;
+      }
+      .provenance-label {
+        font-size: 0.65rem;
+        color: #64748b;
+        font-style: italic;
+        margin-top: 5px;
+      }
+      .timestamp-label {
+        font-size: 0.7rem;
+        color: #475569;
+        font-family: monospace;
+        margin-top: 2px;
+      }
+
+      /* SERVICE PILLS */
+      .services-container {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        transition: opacity 0.3s;
+      }
+      .service-pill {
+        background: #334155;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+        user-select: none;
+      }
+      .service-pill:hover {
+        border-color: var(--text-secondary);
+        background: #3f5066;
+      }
+
+      /* NEW: LOST STATE STYLES */
+      .service-pill-LOST {
+        background: #1e293b; /* Darker bg */
+        border: 1px dashed #475569;
+        color: #64748b;
+        cursor: not-allowed;
+      }
+
+      .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      .dot-ONLINE {
+        background-color: var(--accent-green);
+        box-shadow: 0 0 8px var(--accent-green);
+      }
+      .dot-OFFLINE {
+        background-color: var(--accent-red);
+        box-shadow: 0 0 8px var(--accent-red);
+      }
+      /* NEW: UNKNOWN STATE (Gray) */
+      .dot-UNKNOWN {
+        background-color: #475569;
+        box-shadow: none;
+      }
+
+      /* MISSION CARDS */
       .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
-        margin-top: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
       }
-
       .card {
-        background: #1e293b;
-        border-radius: 12px;
-        padding: 1.5rem;
-        border: 1px solid #334155;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+        background-color: var(--card-bg);
+        border-radius: 8px;
+        padding: 20px;
+        border-left: 5px solid var(--accent-green);
         transition: transform 0.2s;
+        overflow: hidden;
       }
       .card:hover {
-        transform: translateY(-5px);
-        border-color: #38bdf8;
+        transform: translateY(-2px);
       }
-
       .badge {
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
+        padding: 4px 8px;
+        border-radius: 4px;
         font-size: 0.8rem;
         font-weight: bold;
-        text-transform: uppercase;
+        color: #0f172a;
+      }
+      .badge-LOW {
+        background-color: var(--accent-green);
+      }
+      .badge-ELEVATED {
+        background-color: var(--accent-orange);
       }
       .badge-CRITICAL {
-        background: #ef4444;
+        background-color: var(--accent-red);
         color: white;
-      } /* Red */
-      .badge-ELEVATED {
-        background: #f59e0b;
-        color: black;
-      } /* Orange */
-      .badge-LOW {
-        background: #10b981;
-        color: white;
-      } /* Green */
-
+      }
       .stat-row {
         display: flex;
         justify-content: space-between;
-        margin-top: 1rem;
-        color: #94a3b8;
+        margin-top: 10px;
         font-size: 0.9rem;
+        color: var(--text-secondary);
       }
       .risk-score {
         font-size: 2rem;
         font-weight: bold;
-        color: white;
+        margin-top: 5px;
+      }
+
+      @media (max-width: 768px) {
+        .telemetry-bar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .readiness-group {
+          align-items: flex-start;
+          width: 100%;
+        }
+        .reason-list,
+        .provenance-label {
+          text-align: left;
+        }
+        .readiness-indicator {
+          width: 100%;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>🚁 SkySec Unified Command // Live Feed</h1>
+    <div class="telemetry-bar">
+      <div class="title-group">
+        <div class="app-title">
+          <span>Unified Command // v1.0</span>
+          <h1>MRADI OPERATIONS</h1>
+        </div>
+
+        <div
+          style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap"
+        >
+          <div id="mode-badge" class="mode-badge">INITIALIZING</div>
+
+          <div class="hardware-group">
+            <div class="hw-item">
+              CPU: <span id="cpu-val" class="hw-val">--%</span>
+            </div>
+            <div class="hw-item">
+              RAM: <span id="ram-val" class="hw-val">--%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-container" id="service-list"></div>
+      </div>
+
+      <div class="readiness-group">
+        <div id="readiness-box" class="readiness-indicator status-READY">
+          INITIALIZING
+        </div>
+        <div id="reason-container" class="reason-list"></div>
+        <div id="provenance-val" class="provenance-label"></div>
+        <div id="timestamp-val" class="timestamp-label">--</div>
+      </div>
+    </div>
+
     <div id="mission-grid" class="grid">
-      <p>Connecting to satellite uplink...</p>
+      <p style="color: var(--text-secondary)">
+        Connecting to Mission Command...
+      </p>
     </div>
 
     <script>
+      // SYSTEMS ENG: Flap Protection Counter
+      // Prevents UI panic during transient network spikes
+      let telemetryFailures = 0;
+
+      // FIX: Pre-fill with defaults to solve "Cold Start" empty state
+      // If the dashboard loads while the server is down, we still want to see these ghosts.
+      let cachedServiceNames = ["MCx Core", "Video Gateway", "Secure Uplink"];
+
+      async function updateTelemetry() {
+        try {
+          const res = await fetch("/api/system/status");
+          if (!res.ok) throw new Error("API Unreachable");
+
+          // --- SUCCESS STATE ---
+          telemetryFailures = 0;
+          document.getElementById("service-list").style.opacity = "1";
+          document.getElementById("service-list").style.pointerEvents = "auto";
+
+          const data = await res.json();
+
+          // Update Cache with real data (in case names change dynamically)
+          cachedServiceNames = Object.keys(data.services);
+
+          // 1. Mode Badge
+          const modeBadge = document.getElementById("mode-badge");
+          modeBadge.innerText = "MODE: " + data.mode;
+          modeBadge.className = `mode-badge mode-${data.mode}`;
+
+          // 2. Hardware Stats (Color Coded)
+          const cpuEl = document.getElementById("cpu-val");
+          cpuEl.innerText = data.hardware.cpu_usage + "%";
+          cpuEl.style.color =
+            data.hardware.cpu_usage > 90 ? "#ef4444" : "#10b981";
+
+          const ramEl = document.getElementById("ram-val");
+          ramEl.innerText = data.hardware.memory_usage + "%";
+          ramEl.style.color =
+            data.hardware.memory_usage > 90 ? "#ef4444" : "#10b981";
+
+          // 3. Readiness (HUMAN FACTORS: Visual Distinction)
+          const readyBox = document.getElementById("readiness-box");
+          let statusText = data.readiness.replace("_", " ");
+          // Add Icon to DEGRADED to distinguish from READY in bad lighting
+          if (data.readiness === "DEGRADED") statusText = "⚠ " + statusText;
+
+          readyBox.innerText = statusText;
+          readyBox.className = `readiness-indicator status-${data.readiness}`;
+
+          // 4. Reasons
+          const reasonContainer = document.getElementById("reason-container");
+          reasonContainer.innerHTML = "";
+          if (data.readiness_reasons && data.readiness_reasons.length > 0) {
+            data.readiness_reasons.forEach((reason) => {
+              const r = document.createElement("span");
+              r.className = "reason-item";
+              r.innerText = "⚠ " + reason;
+              reasonContainer.appendChild(r);
+            });
+          } else {
+            const ok = document.createElement("span");
+            ok.style.color = "var(--accent-green)";
+            ok.innerText = "All Systems Nominal";
+            reasonContainer.appendChild(ok);
+          }
+
+          // 5. Provenance (History)
+          if (data.last_transition) {
+            const trans = data.last_transition;
+            const provText = `LAST EVENT: ${trans.from} → ${trans.to} (${trans.cause})`;
+            document.getElementById("provenance-val").innerText = provText;
+          }
+
+          document.getElementById("timestamp-val").innerText =
+            "LAST CHECK: " + data.timestamp;
+
+          // 6. Service Pills (Live & Safeguarded)
+          const sList = document.getElementById("service-list");
+          sList.innerHTML = "";
+          for (const [name, info] of Object.entries(data.services)) {
+            const pill = document.createElement("div");
+            pill.className = "service-pill";
+
+            // HUMAN FACTORS: Intent Confirmation
+            // Prevents accidental clicks during high-stress demos
+            pill.onclick = () => {
+              const action = info.status === "OFFLINE" ? "RESTORE" : "DISABLE";
+              if (confirm(`CONFIRM: ${action} service '${name}'?`)) {
+                toggleService(name, info.status === "OFFLINE");
+              }
+            };
+
+            pill.innerHTML = `
+                        <div class="dot dot-${info.status}"></div>
+                        <div style="display:flex; flex-direction:column;">
+                            <span style="font-weight:bold;">${name}</span>
+                            <span style="font-size:0.7rem; color:#94a3b8;">${info.status}</span>
+                        </div>
+                    `;
+            sList.appendChild(pill);
+          }
+        } catch (err) {
+          // --- FAILURE / LOST STATE ---
+          // We use flap protection to avoid panic on single dropped packet
+          telemetryFailures++;
+
+          if (telemetryFailures >= 3) {
+            // 1. Big Status Box: Clear wording ("Link Lost" vs "Broken")
+            const readyBox = document.getElementById("readiness-box");
+            readyBox.innerText = "TELEMETRY LINK LOST";
+            readyBox.className = "readiness-indicator status-LOST";
+
+            // 2. Mode Badge: Gray out (Uncertainty)
+            const modeBadge = document.getElementById("mode-badge");
+            modeBadge.className = "mode-badge mode-LOST";
+            modeBadge.innerText = "SIGNAL LOST";
+
+            // 3. Provenance: Explicitly state log unavailability
+            document.getElementById("provenance-val").innerText =
+              "EVENT LOG UNAVAILABLE - CHECK NETWORK";
+            document.getElementById("timestamp-val").innerText =
+              "LAST CHECK: --";
+
+            // 4. Ghost Pills: Gray out services (Unknown state)
+            const sList = document.getElementById("service-list");
+            sList.innerHTML = "";
+            sList.style.opacity = "1";
+            sList.style.pointerEvents = "none"; // Disable interaction
+
+            if (cachedServiceNames.length > 0) {
+              cachedServiceNames.forEach((name) => {
+                const pill = document.createElement("div");
+                pill.className = "service-pill service-pill-LOST"; // Use new gray style
+                pill.innerHTML = `
+                                <div class="dot dot-UNKNOWN"></div>
+                                <div style="display:flex; flex-direction:column;">
+                                    <span style="font-weight:bold;">${name}</span>
+                                    <span style="font-size:0.7rem;">UNKNOWN</span>
+                                </div>
+                            `;
+                sList.appendChild(pill);
+              });
+            }
+
+            document.getElementById("reason-container").innerHTML =
+              "<span style='color:#94a3b8'>Attempting Reconnection...</span>";
+          }
+        }
+      }
+
+      async function toggleService(name, makeActive) {
+        await fetch("/api/system/control", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Demo-Key": "ALLOW_SIM", // SECURITY: Header Auth required
+          },
+          body: JSON.stringify({ service_name: name, active: makeActive }),
+        });
+        updateTelemetry();
+      }
+
       async function fetchMissions() {
         try {
-          // 1. Call the API (The Intelligence Link)
           const response = await fetch("/api/missions");
           const data = await response.json();
-
           const grid = document.getElementById("mission-grid");
-          grid.innerHTML = ""; // Clear "Connecting..." text
-
-          // 2. Loop through missions and create cards
+          grid.innerHTML = "";
           data.missions.forEach((mission) => {
             const risk = mission.risk_assessment;
-
-            // Create HTML Card
+            let borderCtx = "#10b981";
+            if (risk.risk_level === "CRITICAL") borderCtx = "#ef4444";
+            if (risk.risk_level === "ELEVATED") borderCtx = "#f59e0b";
             const card = `
-                        <div class="card">
+                        <div class="card" style="border-left-color: ${borderCtx};">
                             <div style="display:flex; justify-content:space-between; align-items:start;">
-                                <h2 style="margin:0; font-size:1.2rem;">${
+                                <h2 style="margin:0; font-size:1.1rem; word-break: break-word;">${
                                   mission.mission_name
                                 }</h2>
                                 <span class="badge badge-${risk.risk_level}">${
               risk.risk_level
             }</span>
                             </div>
-                            
                             <div class="stat-row">
-                                <span>📍 Region: ${mission.region}</span>
-                                <span>📡 Asset: ${mission.asset}</span>
+                                <span>📍 ${mission.region}</span>
+                                <span>📡 ${mission.asset}</span>
                             </div>
-
-                            <hr style="border:0; border-top:1px solid #334155; margin: 1rem 0;">
-                            
-                            <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <hr style="border:0; border-top:1px solid #334155; margin: 15px 0;">
+                            <div style="display:flex; justify-content:space-between; align-items:end;">
                                 <div>
-                                    <div style="font-size:0.8rem; color:#94a3b8;">RISK SCORE</div>
+                                    <div style="font-size:0.7rem; color:#94a3b8; letter-spacing:1px;">RISK SCORE</div>
                                     <div class="risk-score">${risk.score}</div>
                                 </div>
                                 <div style="text-align:right;">
-                                    <div style="font-size:0.8rem; color:#94a3b8;">STATUS</div>
+                                    <div style="font-size:0.7rem; color:#94a3b8; letter-spacing:1px;">STATUS</div>
                                     <div style="font-weight:bold; color:${
                                       mission.status === "READY"
                                         ? "#10b981"
                                         : "#ef4444"
-                                    }">
-                                        ${mission.status}
-                                    </div>
+                                    }">${mission.status}</div>
                                 </div>
                             </div>
-                        </div>
-                    `;
+                        </div>`;
             grid.innerHTML += card;
           });
         } catch (err) {
-          console.error("Link Failed:", err);
-          document.getElementById("mission-grid").innerHTML =
-            '<p style="color:red">⚠ CONNECTION LOST</p>';
+          console.error("Mission Link Failed:", err);
         }
       }
 
-      // Run immediately on load
+      updateTelemetry();
       fetchMissions();
+      setInterval(updateTelemetry, 1000);
+      setInterval(fetchMissions, 10000);
     </script>
   </body>
 </html>

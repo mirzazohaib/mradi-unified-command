@@ -1,70 +1,92 @@
-from fastapi import FastAPI, Query, HTTPException
-from fastapi.staticfiles import StaticFiles  # NEW: For serving CSS/JS
-from fastapi.responses import FileResponse   # NEW: For serving HTML
+from fastapi import FastAPI, Query, HTTPException, Header # SECURITY: Header required for auth
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from typing import Optional
 from pydantic import BaseModel
 
 # Internal module imports
 from app.sf_connector import get_active_missions, update_mission_status_in_sf
-from app.risk_engine import calculate_risk_score  # MRADI-5
-from app.audit_logger import log_transaction       # MRADI-6
+from app.risk_engine import calculate_risk_score   
+from app.audit_logger import log_transaction       # GOVERNANCE: Audit capability
+from app.system_monitor import get_system_health, toggle_service_status
 
-app = FastAPI(title="SkySec Unified Command API", version="1.0")
+app = FastAPI(title="SkySec Unified Command API", version="1.3")
 
-# 1. MOUNT STATIC FILES (Day 7: Visualization Layer)
-# This serves the 'app/static' folder at the '/static' URL path.
+# 1. VISUALIZATION LAYER
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
-# Pydantic model for the update request body
+# --- PYDANTIC MODELS (Data Validation) ---
 class StatusUpdate(BaseModel):
     status: str
 
-# 2. SERVE THE DASHBOARD (The New Entry Point)
+class ServiceControl(BaseModel):
+    service_name: str
+    active: bool
+
+# 2. ENTRY POINT
 @app.get("/")
 async def read_root():
-    # Instead of a JSON message, we serve the HTML dashboard
     return FileResponse('app/static/index.html')
 
-# UPDATED: Added Risk Scoring and Audit Logging (MRADI-5 & MRADI-6)
+# ==========================================
+# STRATEGIC LAYER (Salesforce Missions)
+# ==========================================
 @app.get("/api/missions")
-def read_missions(region: Optional[str] = Query(None, description="Filter missions by region")):
-    print(f"API Request received: Fetching missions for region: {region or 'All'}")
-    
-    # 1. Fetch raw data from Salesforce
+def read_missions(region: Optional[str] = Query(None)):
     data = get_active_missions()
-    
-    # 2. Filter by region if requested
     if region:
         data = [m for m in data if m['region'].lower() == region.lower()]
     
-    # 3. Enrich data with Risk Intelligence and Log actions
     for mission in data:
-        # Calculate risk (Complexity is mocked at 3 for this sprint)
+        # INTELLIGENCE: Dynamic risk calculation
         risk_assessment = calculate_risk_score(mission['status'], complexity=3)
-        
-        # Inject the assessment into the mission object
         mission['risk_assessment'] = risk_assessment
         
-        # Log the transaction for audit compliance (MRADI-6)
-        log_transaction(
-            action="RISK_CALCULATION",
-            mission_id=mission['id'],
-            details=f"Score: {risk_assessment['score']} | Level: {risk_assessment['risk_level']}"
-        )
+        # GOVERNANCE: Log access to mission data
+        log_transaction("RISK_CALCULATION", mission['id'], f"Score: {risk_assessment['score']}")
         
     return {"count": len(data), "missions": data}
 
-# PATCH endpoint to update status (MRADI-4)
 @app.patch("/api/missions/{mission_id}")
 def update_mission(mission_id: str, update: StatusUpdate):
     success = update_mission_status_in_sf(mission_id, update.status)
-    
     if not success:
-        # Log failed update attempt
-        log_transaction("UPDATE_FAILED", mission_id, f"Attempted status: {update.status}")
-        raise HTTPException(status_code=500, detail="Failed to update Salesforce record")
+        log_transaction("UPDATE_FAILED", mission_id, f"Target: {update.status}")
+        raise HTTPException(status_code=500, detail="Salesforce Update Failed")
     
-    # Log successful update
     log_transaction("UPDATE_SUCCESS", mission_id, f"New status: {update.status}")
+    return {"status": "success"}
+
+# ==========================================
+# OPERATIONAL LAYER (Telemetry & Sim)
+# ==========================================
+
+@app.get("/api/system/status")
+def read_system_status():
+    """Provides real-time telemetry for the HUD."""
+    return get_system_health()
+
+@app.post("/api/system/control")
+def control_service(
+    cmd: ServiceControl, 
+    x_demo_key: str = Header(None) # SECURITY: Require API Key via Header
+):
+    """
+    Simulate service failures. Protected by Header Auth.
+    """
+    # 1. SECURITY CHECK
+    if x_demo_key != "ALLOW_SIM":
+        log_transaction("SECURITY_ALERT", "SYSTEM", "Unauthorized control attempt")
+        raise HTTPException(status_code=403, detail="Unauthorized: Invalid Key")
+
+    # 2. EXECUTE
+    success = toggle_service_status(cmd.service_name, cmd.active)
+    if not success:
+        raise HTTPException(status_code=404, detail="Service not found")
     
-    return {"status": "success", "mission_id": mission_id, "new_status": update.status}
+    # 3. AUDIT LOG (GOVERNANCE)
+    # Critical: Record who changed the system state and when.
+    action = "SERVICE_RESTORED" if cmd.active else "SERVICE_OUTAGE_SIMULATED"
+    log_transaction(action, "SYSTEM_OP", f"Manual toggle of {cmd.service_name}")
+        
+    return {"success": success, "new_state": "ONLINE" if cmd.active else "OFFLINE"}
