@@ -7,3 +7,1032 @@
 2026-01-11 10:29:05,183 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
 2026-01-11 10:42:51,837 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
 2026-01-11 10:42:51,839 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:10:15,130 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:10:15,132 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:10:24,705 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:10:24,707 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:10:34,838 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:10:34,840 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:10:44,818 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:10:44,819 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:10:55,096 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:10:55,098 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:05,207 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:05,209 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:14,749 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:14,753 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:24,657 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:24,658 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:34,748 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:34,749 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:44,870 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:44,871 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:11:55,382 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:11:55,382 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:05,276 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:05,279 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:14,777 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:14,779 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:25,258 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:25,259 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:34,010 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:34,011 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:45,264 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:45,265 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:12:54,815 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:12:54,816 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:04,545 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:04,546 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:15,048 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:15,049 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:23,850 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:23,853 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:33,361 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:33,362 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:43,482 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:43,487 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:13:53,407 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:13:53,409 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:04,310 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:04,369 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:13,614 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:13,614 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:25,191 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:25,192 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:34,492 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:34,494 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:46,174 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:46,175 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:14:53,993 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:14:53,994 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:15:04,827 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:15:04,836 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:15:29,700 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:15:29,702 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:16:29,594 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:16:29,596 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:17:28,560 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:17:28,561 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:17:33,357 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:17:33,365 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:17:43,147 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:17:43,148 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:17:53,141 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:17:53,143 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:03,299 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:03,300 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:12,589 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:12,591 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:23,433 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:23,435 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:33,159 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:33,160 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:42,584 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:42,585 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 19:18:53,182 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 19:18:53,184 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:49:31,078 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:49:31,087 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:49:34,014 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:49:34,016 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:49:43,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:49:43,631 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:49:53,631 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:49:53,633 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:03,367 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:03,369 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:13,654 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:13,656 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:23,227 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:23,229 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:32,786 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:32,788 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:43,178 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:43,179 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:50:53,185 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:50:53,186 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:03,239 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:03,240 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:13,202 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:13,203 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:23,234 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:23,236 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:33,685 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:33,687 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:44,237 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:44,241 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:51:54,013 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:51:54,014 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:04,202 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:04,203 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:13,329 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:13,331 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:22,956 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:22,958 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:33,508 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:33,510 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:44,607 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:44,609 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:52:54,296 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:52:54,305 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:53:04,157 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:53:04,158 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:53:13,591 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:53:13,592 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:53:23,380 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:53:23,381 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:53:34,236 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:53:34,239 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 20:53:44,133 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 20:53:44,136 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:10:53,234 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:10:53,236 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:10:54,623 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:10:54,625 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:04,589 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:04,590 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:14,465 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:14,466 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:16,233 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink to OFFLINE
+2026-01-11 21:11:18,154 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink to ONLINE
+2026-01-11 21:11:19,964 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway to OFFLINE
+2026-01-11 21:11:21,498 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway to ONLINE
+2026-01-11 21:11:22,821 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core to OFFLINE
+2026-01-11 21:11:24,161 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway to OFFLINE
+2026-01-11 21:11:24,532 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:24,533 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:25,833 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core to ONLINE
+2026-01-11 21:11:27,988 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway to ONLINE
+2026-01-11 21:11:34,441 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:34,443 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:44,439 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:44,440 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:11:54,614 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:11:54,616 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:12:04,906 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:12:04,908 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:12:14,479 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:12:14,482 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:14:53,929 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:14:53,931 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:03,638 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:03,640 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:13,359 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:13,360 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:23,353 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:23,354 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:33,397 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:33,398 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:44,229 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:44,230 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:15:53,741 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:15:53,744 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:04,257 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:04,259 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:14,860 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:14,861 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:23,012 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:23,014 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:34,381 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:34,393 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:44,461 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:44,464 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:16:53,626 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:16:53,630 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:04,360 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:04,362 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:14,226 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:14,227 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:24,691 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:24,693 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:34,412 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:34,414 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:39,307 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:39,308 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:43,432 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:43,433 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:17:53,451 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:17:53,453 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:03,599 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:03,620 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:13,978 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:13,979 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:24,204 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:24,205 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:34,037 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:34,041 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:44,503 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:44,503 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:18:54,667 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:18:54,668 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:19:04,034 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:19:04,036 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:19:14,213 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:19:14,214 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:19:29,074 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:19:29,076 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:20:28,824 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:20:28,825 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:21:30,462 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:21:30,464 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:22:29,206 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:22:29,207 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:23:29,489 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:23:29,490 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:23:58,163 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:23:58,165 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:03,841 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:03,843 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:13,423 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:13,424 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:24,811 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:24,813 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:33,709 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:33,711 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:44,136 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:44,137 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:24:54,072 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:24:54,074 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:25:04,028 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:25:04,029 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:25:14,091 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:25:14,092 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:25:29,489 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:25:29,490 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:26:29,684 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0 | Level: LOW
+2026-01-11 21:26:29,686 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0 | Level: CRITICAL
+2026-01-11 21:28:30,493 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:28:30,494 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:04,935 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:04,938 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:13,618 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:13,619 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:20,632 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:20,635 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:30,504 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:30,506 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:40,400 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:40,401 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:50,445 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:29:50,446 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:29:57,497 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:30:00,551 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:00,552 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:10,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:10,629 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:20,441 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:20,442 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:28,695 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:30:30,094 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:30,095 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:40,695 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:40,696 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:41,334 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:30:46,504 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:30:49,458 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:30:51,346 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:30:51,348 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:30:52,440 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:30:56,367 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:31:00,808 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:00,812 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:31:01,192 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:31:04,440 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:31:09,803 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:31:10,689 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:10,693 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:31:12,150 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:31:14,234 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:31:20,453 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:20,454 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:31:30,699 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:30,700 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:31:41,135 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:41,137 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:31:50,933 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:31:50,934 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:32:01,209 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:32:01,210 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:32:11,166 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:32:11,167 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:32:20,603 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:32:20,604 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:32:31,180 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:32:31,181 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:33:20,166 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:33:20,167 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:33:24,630 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:33:30,773 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:33:30,775 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:33:35,234 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:33:40,929 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:33:40,931 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:33:41,167 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:33:47,866 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:33:50,704 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:33:50,705 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:00,603 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:00,604 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:10,571 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:10,572 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:20,627 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:20,629 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:30,645 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:30,646 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:40,738 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:40,740 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:34:50,534 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:34:50,535 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:00,648 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:00,649 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:08,502 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:35:10,874 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:10,875 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:20,694 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:20,695 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:30,741 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:30,744 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:30,843 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:35:40,742 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:40,774 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:35:50,561 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:35:50,562 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:00,614 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:00,615 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:07,143 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:36:10,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:10,630 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:18,687 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:36:20,630 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:20,631 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:20,926 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:36:23,234 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:36:28,603 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:36:30,754 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:30,755 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:34,151 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:36:36,582 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:36:40,142 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:36:40,741 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:40,743 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:43,450 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:36:46,394 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:36:48,844 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:36:50,721 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:36:50,723 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:36:55,129 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:36:57,546 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:37:00,597 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:00,598 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:13,232 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:13,234 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:20,541 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:20,542 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:31,008 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:31,009 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:33,287 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:37:40,688 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:40,690 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:41,191 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:37:44,841 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:37:47,567 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:37:50,662 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:37:50,663 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:37:59,044 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:38:00,982 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:00,984 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:38:03,253 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:38:07,838 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:38:09,764 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:38:10,686 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:10,689 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:38:19,728 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:38:21,836 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:21,838 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:38:30,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:30,629 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:38:40,558 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:40,559 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:38:50,693 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:38:50,694 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:00,640 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:00,641 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:10,556 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:10,557 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:20,551 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:20,552 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:23,335 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:39:24,676 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:39:27,798 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:39:30,603 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:30,604 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:40,698 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:40,699 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:39:50,530 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:39:50,532 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:00,681 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:00,684 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:11,004 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:11,005 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:20,598 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:20,601 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:30,582 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:30,583 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:36,888 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:40:39,612 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:40:41,725 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:41,726 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:42,849 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:40:46,266 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:40:50,566 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:40:50,568 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:40:52,264 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:40:53,567 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:40:54,971 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:40:57,313 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:41:00,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:00,634 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:00,637 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:41:10,674 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:10,675 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:10,681 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:41:15,210 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:41:20,668 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:20,669 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:25,862 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:41:29,467 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:41:31,417 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:31,418 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:40,636 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:40,637 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:50,572 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:41:50,573 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:41:57,785 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:41:59,051 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:42:00,979 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:00,981 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:42:01,271 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:42:10,560 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:10,561 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:42:19,902 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:19,905 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:42:30,682 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:30,684 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:42:35,751 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:42:40,566 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:40,567 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:42:50,526 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:42:50,527 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:00,574 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:00,576 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:11,112 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:11,113 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:20,651 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:20,652 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:30,142 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:30,143 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:31,827 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:43:40,952 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:40,955 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:43:50,572 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:43:50,574 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:01,098 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:01,099 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:10,471 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:10,472 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:20,527 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:20,529 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:23,570 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:44:30,614 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:30,615 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:40,717 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:40,718 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:44:50,708 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:44:50,710 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:00,474 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:00,475 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:10,003 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:10,005 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:19,867 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:19,868 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:30,573 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:30,574 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:40,585 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:40,586 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:45:51,022 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:45:51,023 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:46:00,680 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:46:00,681 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:46:10,615 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:46:10,618 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:10,570 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:10,571 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:20,049 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:20,050 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:21,746 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:21,747 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:31,632 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:31,634 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:41,458 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:41,461 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:51,616 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:47:51,617 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:47:56,892 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:48:01,273 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:01,364 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:01,364 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:10,870 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:10,872 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:12,098 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:14,241 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:16,723 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 21:48:21,332 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:21,501 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:21,502 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:24,648 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:29,350 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:31,541 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:31,542 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:35,262 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:38,470 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:40,413 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:41,706 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:42,291 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:42,292 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:43,447 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:46,520 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:49,045 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:51,448 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:48:51,449 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:48:54,837 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:48:56,615 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:48:58,767 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:49:01,376 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:01,379 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:49:01,968 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:49:03,655 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:49:11,417 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:11,418 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:49:21,513 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:21,515 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:49:25,286 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:49:27,299 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:49:31,421 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:31,422 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:49:35,522 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:49:37,014 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:49:42,025 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:42,026 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:49:52,669 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:49:52,670 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:50:02,300 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:50:02,301 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:50:14,378 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:50:14,380 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:56:43,060 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:56:43,062 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:56:44,213 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:56:44,214 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:56:52,763 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:56:54,035 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:56:56,075 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:56:56,076 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:56:57,004 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 21:57:01,713 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:57:03,888 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:57:03,906 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:57:06,649 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 21:57:13,983 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:57:13,991 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:57:23,777 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:57:23,779 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 21:57:33,994 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 21:57:33,998 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:04,126 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:04,129 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:12,678 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:12,679 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:18,085 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:07:21,182 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:07:23,091 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:23,092 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:24,163 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:07:31,271 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:07:33,286 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:33,287 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:33,562 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:07:36,214 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:07:42,349 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:42,390 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:07:44,619 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:07:47,068 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:07:50,343 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:07:52,500 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:07:52,501 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:08:02,291 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:08:02,296 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:08:04,709 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:08:12,283 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:08:12,284 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:08:22,229 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:08:22,230 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:09:12,338 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:09:12,339 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:09:22,385 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:09:22,389 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:09:32,319 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:09:32,320 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:09:42,223 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:09:42,224 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:09:52,316 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:09:52,317 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:02,417 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:02,419 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:12,291 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:12,293 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:22,300 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:22,301 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:32,361 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:32,362 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:40,353 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:10:42,319 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:42,321 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:10:42,525 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:10:52,179 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:10:52,181 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:02,287 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:02,289 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:09,384 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:11:12,146 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:11:12,513 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:12,518 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:13,515 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:11:19,731 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:11:22,234 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:22,238 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:32,248 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:32,249 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:42,253 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:42,254 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:52,285 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:11:52,286 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:11:57,196 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:11:58,891 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:12:01,930 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:12:02,749 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:02,751 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:12:04,836 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:12:12,162 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:12,163 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:12:22,371 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:22,372 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:12:32,175 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:32,176 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:12:42,212 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:42,214 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:12:50,930 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:12:52,713 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:12:52,714 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:02,405 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:02,407 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:08,934 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:13:12,176 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:12,177 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:12,755 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:13:13,932 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:13:21,837 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:21,840 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:32,182 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:32,217 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:41,699 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:41,700 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:13:42,022 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:13:52,180 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:13:52,182 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:02,266 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:02,268 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:08,452 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:14:10,200 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:14:11,627 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:11,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:13,465 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:14:21,630 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:21,631 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:26,693 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:14:29,319 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:14:32,085 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:32,086 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:36,489 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:14:42,125 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:42,125 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:47,998 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:14:52,207 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:14:52,208 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:14:54,682 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:14:59,773 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:15:02,330 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:02,331 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:15:03,359 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:15:06,255 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:15:12,185 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:12,187 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:15:22,221 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:22,222 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:15:32,164 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:32,166 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:15:42,174 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:42,176 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:15:52,175 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:15:52,176 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:16:02,141 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:16:02,144 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:16:11,733 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:16:11,735 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:16:22,197 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:16:22,198 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:16:32,225 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:16:32,227 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:09,910 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:09,912 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:11,470 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:11,471 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:15,357 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:18:18,719 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:21,034 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:21,035 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:26,283 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:29,272 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:31,202 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:18:31,266 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:31,270 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:35,275 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:18:41,091 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:41,093 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:43,130 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:46,361 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:18:48,865 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:51,188 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:18:51,190 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:18:51,481 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:18:55,538 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:18:59,096 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:19:01,096 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:19:01,097 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:19:11,336 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:19:11,338 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:30:41,519 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:30:41,520 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:30:42,146 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:30:44,477 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:30:46,723 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:30:51,209 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:30:51,211 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:31:01,217 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:31:01,219 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:31:11,167 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:31:11,168 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:31:21,152 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:31:21,154 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:32:40,957 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:32:40,959 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:32:48,062 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:32:50,970 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:32:50,971 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:32:52,546 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:39:37,102 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:39:37,103 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:39:40,799 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:39:47,210 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:39:47,211 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:40:27,317 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:40:27,327 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:40:37,163 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:40:37,165 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:40:47,083 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:40:47,085 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:40:56,983 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:40:56,987 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:41:09,742 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:41:09,743 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:41:17,255 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:41:17,257 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:51:42,388 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:51:42,390 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:51:45,451 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:51:48,601 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:51:51,745 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:51:51,747 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:51:59,088 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:52:01,006 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:01,007 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:52:02,774 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:52:05,086 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:52:08,480 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:52:11,111 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:11,112 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:52:11,606 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:52:15,681 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:52:20,969 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:52:21,884 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:21,885 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:52:24,335 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-11 22:52:27,685 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Secure Uplink
+2026-01-11 22:52:30,907 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-11 22:52:32,820 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:32,821 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:52:42,910 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:42,912 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-11 22:52:52,276 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-11 22:52:52,278 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:03,662 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:03,669 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:14,063 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:14,065 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:23,029 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:23,031 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:33,139 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:33,140 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:43,722 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:43,724 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:46:53,207 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:46:53,208 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:00,857 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:00,906 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:05,606 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:05,609 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:10,510 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:10,533 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:36,588 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:36,593 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:48,520 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:48,540 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:47:58,673 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:47:58,675 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:09,203 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:09,204 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:19,121 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:19,123 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:29,270 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:29,272 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:35,586 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:35,587 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:46,030 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:46,031 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:48:55,522 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:48:55,524 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:14,333 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:14,336 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:16,104 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:16,105 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:25,481 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:25,482 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:36,261 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:36,263 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:46,559 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:46,560 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:49:56,165 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:49:56,167 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:06,144 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:06,146 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:16,079 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:16,080 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:26,543 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:26,544 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:36,393 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:36,394 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:46,386 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:46,387 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:50:56,344 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:50:56,345 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:06,687 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:06,688 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:16,681 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:16,682 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:26,160 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:26,162 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:36,874 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:36,876 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:46,161 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:46,162 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:51:56,580 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:51:56,581 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:06,767 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:06,770 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:16,134 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:16,136 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:26,133 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:26,134 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:36,275 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:36,276 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:46,102 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:46,103 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:52:56,409 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:52:56,411 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:06,118 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:06,120 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:15,709 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:15,712 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:26,545 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:26,546 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:38,418 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:38,420 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:46,232 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:46,233 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:53:56,730 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:53:56,731 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:06,044 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:06,045 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:17,377 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:17,379 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:26,287 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:26,288 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:36,323 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:36,325 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:46,243 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:46,245 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:54:56,361 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:54:56,362 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:55:06,091 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:55:06,092 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:55:16,232 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:55:16,233 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:55:26,195 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:55:26,196 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:55:36,298 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:55:36,301 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:55:46,214 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:55:46,215 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:56:19,626 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:56:19,628 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:56:26,496 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:56:26,497 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:00,712 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:00,713 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:06,210 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:06,212 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:16,240 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:16,246 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:26,215 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:26,216 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:36,170 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:36,172 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:46,193 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:46,194 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:57:56,194 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:57:56,195 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:06,140 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:06,141 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:16,045 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:16,046 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:26,347 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:26,348 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:36,198 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:36,199 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:38,793 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-12 09:58:44,118 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-12 09:58:46,112 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:46,113 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:58:48,841 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-12 09:58:51,318 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-12 09:58:56,309 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:58:56,316 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:59:06,077 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:59:06,078 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:59:16,573 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:59:16,574 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 09:59:26,240 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 09:59:26,245 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:02:30,318 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:02:30,319 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:04,379 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:04,381 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:06,675 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:06,679 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:16,891 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:16,894 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:26,252 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:26,254 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:36,404 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:36,405 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:03:46,261 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:03:46,264 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:26:36,195 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:26:36,196 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:26:46,066 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:26:46,067 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:26:56,087 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:26:56,088 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:27:06,442 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:27:06,443 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:27:16,110 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:27:16,111 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:27:26,212 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:27:26,214 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:27:31,035 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-12 10:27:35,864 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of Video Gateway
+2026-01-12 10:27:36,385 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:27:36,386 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0
+2026-01-12 10:27:40,517 - INFO - Action: SERVICE_OUTAGE_SIMULATED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-12 10:27:45,197 - INFO - Action: SERVICE_RESTORED | Mission: SYSTEM_OP | Details: Manual toggle of MCx Core
+2026-01-12 10:27:47,133 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006HDocAAG | Details: Score: 25.0
+2026-01-12 10:27:47,135 - INFO - Action: RISK_CALCULATION | Mission: a01g5000006OOc1AAG | Details: Score: 81.0

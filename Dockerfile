@@ -1,34 +1,58 @@
-# 1. Base Image: Use 3.12 Slim on Debian Bookworm (Stable & Fast)
+# ==========================================
+# 1. BASE IMAGE (Secure & Lightweight)
+# ==========================================
+# We use Python 3.12 Slim on Debian Bookworm.
+# 'Slim' reduces attack surface area by removing unnecessary tools.
 FROM python:3.12-slim-bookworm
 
-# 2. Set environment variables to prevent Python from buffering stdout/stderr
-#    (This ensures your logs show up in the console immediately)
+# ==========================================
+# 2. ENVIRONMENT CONFIG
+# ==========================================
+# PYTHONUNBUFFERED: Ensures logs stream immediately to the dashboard (Critical for Telemetry)
+# PYTHONDONTWRITEBYTECODE: Prevents .pyc files from cluttering the container
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
 
-# 3. Set the working directory
+# Set the working directory inside the container
 WORKDIR /app
 
-# 4. Install system dependencies (Optional but good for 'Airbus-Ready' robustness)
-#    We install curl for healthchecks
+# ==========================================
+# 3. SYSTEM DEPENDENCIES (Resilience)
+# ==========================================
+# We install 'curl' to enable Health Checks (e.g., HEALTHCHECK CMD curl --fail ...)
+# apt-get clean reduces image size.
 RUN apt-get update && apt-get install -y --no-install-recommends curl \
     && rm -rf /var/lib/apt/lists/*
 
-# 5. Copy dependencies first
+# ==========================================
+# 4. PYTHON DEPENDENCIES (Layer Caching)
+# ==========================================
+# COPY requirements first! Docker caches this layer.
+# If you change code but not requirements, Docker skips this slow step.
 COPY requirements.txt .
 
-# 6. Install Python libraries
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 7. Copy the rest of the code
+# ==========================================
+# 5. APPLICATION CODE
+# ==========================================
 COPY . .
 
-# 8. Create a non-root user for security (Airbus-Ready Requirement!)
+# ==========================================
+# 6. SECURITY HARDENING (Governance)
+# ==========================================
+# CRITICAL: Create a non-root user. 
+# Running as root inside a container is a security risk.
 RUN adduser --disabled-password --gecos "" appuser && chown -R appuser /app
+
+# Switch to the secure user
 USER appuser
 
-# 9. Expose the port
+# ==========================================
+# 7. RUNTIME CONFIGURATION
+# ==========================================
+# Document that this container listens on port 8000
 EXPOSE 8000
 
-# 10. Run the app
+# Start the application server
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
